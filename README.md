@@ -1,5 +1,7 @@
 # PowerQuery_relative-path-setting
-Method to set up relative path query in MS Excel PowerQuery
+PowerQuery by default queries via absolute path, which can be problematic when running the query on a different machine. This a my note of how to set up relative path query in MS Excel PowerQuery. So that regardless of where the query file is saved, as long as the relative location of data source file stays the same, the query should operate as normal.
+
+Below is an example of querying one single data source file in the same folder. For scenarios that the source file may be in a subfolder, or the source IS every file in the subfolder, the codes below will require some tweeking. I will find time to add examples for those, but for now:
 
 find any cell and use below formula in Excel to return current the path
 
